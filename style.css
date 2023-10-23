@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0rem 3rem;
+    flex-wrap: nowrap;
+    min-width: 16rem;
+}
+
+.logo-container img {
+    max-width: 3.5rem;
+}
+
+.logotype {
+    font-family: superblue, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
