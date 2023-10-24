@@ -10,10 +10,13 @@
 
     <body>
         <header>
-            <div class="logo-container">
-                <img src="img/leafdaddy-icon.svg" alt="kelly green rounded rectangle with stylized lime green potted plant">
-                <p class="logotype">Leaf Daddy</p>
-            </div>
+            <a href="index.html">
+                <div class="logo-container">
+                    <img class="logo-icon" src="img/leafdaddy-icon.svg" alt="kelly green rounded rectangle with stylized lime green potted plant">
+                    <p class="logotype">Leaf Daddy</p>
+                </div>
+            </a>
+
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -25,26 +28,29 @@
         </header>
         <div class="intro-container">
             <img src="img/contact-intro-img.jpg" alt="a corner full of a variety of houseplants">
-            <h1>Let's Chat!</h1>
-            <h3>Reach out with questions or comments</h3>
+            <div class="intro-text">
+                <h1>Let's Chat!</h1>
+                <h3>Reach out with questions or comments</h3>
+            </div>
         </div>
 
         <div class="featured-content_wrapper">
+            <h2>Please fill out the form below</h2>
             <form action="/form-handling-url" method="post">
                 <fieldset>
                     <div>
-                        <label class="" for="fullName">Full Name</label>
-                        <input class="" type="text" id="fullName" name="full_name">
+                        <label class="label-block" for="fullName">Full Name</label>
+                        <input class="input-full-width" type="text" id="fullName" name="full_name">
                     </div>
 
                     <div>
-                        <label class="" for="email">Email</label>
-                        <input class="" type="text" id="email" name="email_address">
+                        <label class="label-block" for="email">Email</label>
+                        <input class="input-full-width" type="text" id="email" name="email_address">
                     </div>
 
                     <div>
-                        <label class="" for="message">Message</label>
-                        <textarea id="message" name="message"></textarea>
+                        <label class="label-block" for="message">Message</label>
+                        <textarea rows="8" class="input-full-width" id="message" name="message"></textarea>
                     </div>
 
                     <div>
@@ -58,5 +64,9 @@
                 </fieldset>
             </form>
         </div>
+
+        <footer>
+            <p>Copyright © Nathan Beck</p>
+        </footer>
     </body>
 </html>

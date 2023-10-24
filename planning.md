@@ -29,12 +29,12 @@ a
 - 1 button
 
 #### Color Palette
-- #386641
-- #6A994E
-- #A7C957
-- #F2E8CF
-- #D16014
-- #192019
+- #386641 - hunter green
+- #6A994E - asperagus
+- #A7C957 - yellow green
+- #F2E8CF - parchment
+- #9C4C32 - chestnut
+- #192019 - black green
 
 #### Fonts
 From Adobe fonts web project
